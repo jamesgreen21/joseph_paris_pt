@@ -1,19 +1,79 @@
-/*
+/*-----------------------------------Special Paddings/Margins/Text*/
 
-Bootstrap Breakpoints
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/*-----------------------------------Body*/
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    background-color: #303030;
+}
 
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+/*-----------------------------------Nav Bar*/
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+.menu-image{
+    
+}
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+.menu-login {
+    height: 50px;
+    padding: 10px;
+    background-color: #1d9100;
+}
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+.menu-login a {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 200;
+    color: #fafafa;
+    font-size: 20px;
+}
 
-*/
+.menu-login .nav-login{
+    text-align: right;
+}
 
+.menu-item {
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    font-size: 15px;
+}
+
+
+/*-----------------------------------Main Page - Header*/
+
+.section-intro {
+    padding-top: 20px;
+}
+
+
+
+/*-----------------------------------Footer*/
+
+.section-footer{
+    background-color: #1d9100;
+    margin-top: 20px;
+}
+
+
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
