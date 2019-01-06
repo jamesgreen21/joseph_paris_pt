@@ -11,33 +11,33 @@
 </head>
 
 <body>
-    <!-- Nav Bar-->
-    <nav "class=" "fixed-top">
-        <section class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <a href="index.html">
-                    <img src="assets/images/joeparis.jpg" class="mx-auto d-block" alt="Responsive image"></img>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Joseph Paris | Personal Trainer</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="traininganddietplans.html">Training & Diet Plans</a>
-                    <a class="nav-item nav-link" href="blog.html">Blog</a>
-                    <a class="nav-item nav-link active" href="contact.html">Contact</a>
-                </div>
+    <nav class="sticky-top nav-menu-main">
+        <nav class="navbar navbar-expand-lg navbar-dark nav-menu-bar">
+            <a class="navbar-brand" href="index.html">Joe Paris | Personal Trainer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="traininganddietplans.html">Training & Diet Plans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span>Login/Sign Up</span><i class="fa fa-user" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </nav>
-    <!-- Contact Form-->
     <section class="container-fluid">
         <div class="row">
             <div class="col-12">
@@ -89,17 +89,21 @@
             </div>
         </div>
     </form>
-    <!-- Footer-->
-    <footer class="container">
-        <div class="row jumbotron">
-            <div class="col-md-3 offset-md-2">
-                <h4 class="text-uppercase">About:</h4>
-                <p>I am a peronal trainer and have been in the industry for 6 years. I also have experience in boxing conditioning and body building competitions.</p>
-            </div>
-            <div class="col-md-3 offset-md-2">
-                <a target="blank" href="#"><i class="fa fa-facebook"></i></a>
-                <a target="blank" href="#"><i class="fa fa-instagram"></i></a>
-                <a target="blank" href="#"><i class="fa fa-youtube"></i></a>
+    <footer class="container-fluid footer-main">
+        <div class="container footer-section">
+            <div class="row">
+                <div class="col-12 col-md-4 offset-md-2">
+                    <h4 class="text-uppercase">About:</h4>
+                    <p>I am a peronal trainer and have been in the industry for 6 years. I also have experience in boxing conditioning and body building competitions.</p>
+                    <p class="inline-block">
+                        Download my CV here <a target="_blank" href="#"><i class="fa fa-download" aria-hidden="true"></i></a>
+                    </p>
+                </div>
+                <div class="text-right col-12 col-md-2 offset-md-2">
+                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                </div>
             </div>
         </div>
     </footer>
