@@ -1,5 +1,9 @@
 /*-----------------------------------Backgrounds and Breaks*/
 
+.bg-standard-3tone{
+    background: linear-gradient(#303030, #000000, #303030);
+}
+
 .bg-black-opacity {
     background-color: rgba(48, 48, 48, 0.7);
 }
@@ -70,7 +74,7 @@ body {
     background-color: #303030;
 }
 
-.nav-menu-bar ul a i{
+.nav-menu-bar ul a i {
     padding-left: 5px;
 }
 
@@ -103,7 +107,7 @@ body {
 .home-article h1 {
     padding-top: 12px;
     padding-bottom: 5px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     font-family: 'PT Sans', sans-serif;
 }
@@ -254,7 +258,7 @@ body {
     padding-top: 30px;
     padding-bottom: 50px;
     margin: 0;
-    background: linear-gradient(#303030, #000000);
+    background: linear-gradient(#000000, #303030);
 }
 
 .home-beforeafter img {
@@ -275,6 +279,31 @@ body {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     text-align: justify;
+}
+
+/*-----------------------------------Training & Diet Plans*/
+
+.trainingplan-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.trainingplan-header h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*-----------------------------------Contact*/
+
+.contact-bg-img {
+    padding: 0;
+    margin: 0;
+    background: url("../images/joeparispt_mainpage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
 }
 
 /*-----------------------------------Footer*/
@@ -369,6 +398,9 @@ body {
         -webkit-box-shadow: 0px -22px 54px 35px rgba(48, 48, 48, 1);
         -moz-box-shadow: 0px -22px 54px 35px rgba(48, 48, 48, 1);
         box-shadow: 0px -22px 54px 35px rgba(48, 48, 48, 1);
+    }
+    .home-beforeafter {
+        background: linear-gradient(#303030, #000000, #303030);
     }
 }
 
