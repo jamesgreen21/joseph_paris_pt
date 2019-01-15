@@ -11,45 +11,44 @@
 </head>
 
 <body>
-    <nav class="sticky-top nav-menu-main">
-        <nav class="navbar navbar-expand-lg navbar-dark nav-menu-bar">
+    <!--Nav Bar-->
+    <nav class="fixed-top nav-menu-main">
+        <nav class="navbar navbar-expand-lg navbar-dark nav-menu-bar bg-standard">
             <a class="navbar-brand" href="index.html">Joe Paris | Personal Trainer</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="nav-btn-pos">
+                <button class="navbar-toggler nav-btn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+                </button>
+            </div>
             <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="traininganddietplans.html">Training & Diet Plans</a>
+                        <a class="nav-link" href="trainingplanoptions.html">Training Plan Options</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><span>Login/Sign Up</span><i class="fa fa-user" aria-hidden="true"></i></a>
+                        <a class="nav-link" href="comingsoon.html"><span>Login/Sign Up</span><i class="fa fa-user" aria-hidden="true"></i></a>
                     </li>
                 </ul>
             </div>
         </nav>
     </nav>
-    <header class="container-fluid home-menu-image">
-        <div class="row">
-            <a href="index.html">
-                <div class="col-12"></div>
-            </a>
-        </div>
-    </header>
+    <!--Heading Image-->
+    <header class="container-fluid home-menu-image"></header>
+    <!--Page article with promo bar-->
     <article class="container-fluid home-article">
         <div class="row d-none d-sm-block">
             <div class="col-12 font-italic text-center promo-bar">
                 <div class="alert alert-success" role="alert">
-                    <a href="#" class="alert-link">Free Consultations - Click Here!</a> For your free 30 minute consultation with Joe, to discuss the process and options available to you.
+                    <a href="contact.html" class="alert-link">Free Consultations - Click Here!</a> For your free 30 minute consultation with Joe, to discuss the process and options available to you.
                 </div>
             </div>
         </div>
@@ -94,24 +93,26 @@
             </div>
         </div>
     </article>
+    <!--Bio Secion-->
     <section class="container-fluid home-bio">
-        <div class="bg-black-opacity container-flex">
-            <div class="row">
-                <div class="offset-1 col-11">
-                    <h2 class="text-left">Meet Joe...</h2>
-                </div>
-                <div class="offset-1 col-3 offset-sm-4 col-sm-2">
-                    <img class="rounded-circle img-fluid  d-block" src="assets/images/joeparis1.jpg" alt="Generic placeholder image">
-                </div>
-                <div class="offset-1 col-10 offset-sm-0 col-sm-5">
-                    <h3>Bio</h3>
-                    <p>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </p>
-                </div>
+        <div class="row bg-black-opacity">
+            <div class="offset-1 col-11">
+                <h2 class="text-left">Meet Joe...</h2>
+            </div>
+            <div class="offset-1 col-3 col-sm-2 col-xl-1">
+                <img class="rounded-circle img-fluid  d-block" src="assets/images/joeparispt_biopic.jpg" alt="Generic placeholder image">
+            </div>
+            <div class="offset-1 col-10">
+                <h3>Bio</h3>
+                <p>I have over 8 years personal training experience, in which I combine my boxing and conditioning knowledge with weight and strength training to give you a great blend and range of exercise plans to combat any goal.</p>
+                <p>I have 6 years training and competing as an amateur boxing during my teens and early twenties, where I built my conditioning knowledge. During this time I was also competing on track and distance running, often running 1,500, 3k and 5k
+                    at club level. I then went on to run in two half marathons, so know what is required for distance running.</p>
+                <p>In my late twenties I turned to body building, comprising of 8 years strength and weight training, finally competing in physique competitions during 2016.</p>
+                <p>I am happy to train in any location and have the knowledge and materials required to adapt to home or studio sessions. Lets get stared!</p>
             </div>
         </div>
     </section>
+    <!--Before & After Secion-->
     <section class="container-fluid home-beforeafter">
         <div class="row">
             <div class="col-12 offset-md-1 col-md-5 offset-xl-2 col-xl-3">
@@ -119,8 +120,7 @@
             </div>
             <div class="col-12 col-md-5 col-xl-6">
                 <h4 class="text-center">Janice from Stanmore</h4>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
-                    in faucibus.</p>
+                <p>Joe has been such a great trainer, pushing me beyond what I thought I was even capable of. I have used in for 6 months now and have enjoyed every moment of it!</p>
             </div>
         </div>
         <div class="row">
@@ -129,11 +129,11 @@
             </div>
             <div class="col-12 col-md-5 col-xl-6">
                 <h4 class="text-center">David from Edgware</h4>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
-                    in faucibus.</p>
+                <p>Well what can I say, what a transformation and all thanks to Joe. He has guided me through a very well structured journey into getting me in the shape I am today. I would highly recommend!</p>
             </div>
         </div>
     </section>
+    <!--Footer-->
     <footer class="container-fluid footer-main">
         <div class="row footer-breaker">
             <div class="col-12 col-sm-9">
@@ -142,21 +142,19 @@
                 </div>
             </div>
             <div class="col-12 col-sm-3 text-center">
-                <button type="button" class="btn btn-outline-light">Contact Joe Now</button>
+                <a href="contact.html"><button type="button" class="btn btn-outline-light" href="contact.html">Contact Joe Now</button></a>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-5 offset-md-1">
                 <h6 class="text-uppercase">Joe Paris | Personal Trainer</h6>
-                <p>I am a peronal trainer and have been in the industry for 6 years. I also have experience in boxing conditioning and body building competitions.</p>
-                <p class="inline-block">
-                    Download my CV here <a target="_blank" href="#"><i class="fa fa-download cv-icon" aria-hidden="true"></i></a>
-                </p>
+                <p>Experienced Personal Trainer, combining weight training, boxing and conditioning work into getting the results you want!</p>
+                <p class="inline-block">Check out my socials or contact me on the link above</p>
             </div>
             <div class="text-center col-12 col-md-4 offset-md-2 social-icons">
-                <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
-                <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
-                <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                <a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a target="_blank" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
             </div>
         </div>
     </footer>

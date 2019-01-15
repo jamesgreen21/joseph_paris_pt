@@ -1,6 +1,10 @@
 /*-----------------------------------Backgrounds and Breaks*/
 
-.bg-standard-3tone{
+.bg-standard {
+    background-color: #303030;
+}
+
+.bg-standard-3tone {
     background: linear-gradient(#303030, #000000, #303030);
 }
 
@@ -43,11 +47,24 @@ body {
 
 .nav-menu-bar {
     height: 60px;
-    background-color: #303030;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: -15px;
-    margin-right: -15px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-btn {
+    -webkit-box-shadow: 0px 0px 1px 1px rgba(192, 192, 192, 1);
+    -moz-box-shadow: 0px 0px 1px 1px rgba(192, 192, 192, 1);
+    box-shadow: 0px 0px 1px 1px rgba(192, 192, 192, 1);
+}
+
+.nav-btn i {
+    color: #fafafa;
+    font-size: 25px;
+}
+
+.nav-btn-pos {
+    padding-right: 5px;
 }
 
 .nav-menu-bar a {
@@ -56,21 +73,20 @@ body {
     font-family: 'PT Sans', sans-serif;
     background-color: #303030;
     padding-left: 15px;
-    padding-right: 15px;
 }
 
 .nav-menu-bar ul a {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 1px;
+    font-style: italic;
+    letter-spacing: 2px;
+    padding-top: 30px;
 }
 
 .nav-menu-bar ul {
     padding-left: 30px;
-    padding-right: 30px;
-    margin-left: -15px;
-    margin-right: -15px;
+    padding-bottom: 30px;
     background-color: #303030;
 }
 
@@ -80,16 +96,8 @@ body {
 
 /*-----------------------------------Main Page - Promo Bar*/
 
-.home-menu-image {
-    height: 80px;
-    background: url("../images/joeparispt_navbar.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0;
-}
-
 .promo-bar {
+    padding-top: 5px;
     font-size: 12px;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
@@ -98,9 +106,19 @@ body {
 
 /*-----------------------------------Main Page - Header*/
 
+.home-menu-image {
+    margin-top: 60px;
+    height: 80px;
+    background: url("../images/joeparispt_navbar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: inset 0px -2px 10px -2px rgba(250, 250, 250, 1);
+    -moz-box-shadow: inset 0px -2px 10px -2px rgba(250, 250, 250, 1);
+    box-shadow: inset 0px -2px 10px -2px rgba(250, 250, 250, 1);
+}
+
 .home-article {
-    padding: 0;
-    margin: 0;
     background: linear-gradient(#000000, #303030);
 }
 
@@ -144,7 +162,9 @@ body {
     border-radius: 9px;
     -ms-transform: matrix(1, 0.1, 0.1, 1, 0, 5);
     -webkit-transform: matrix(1, 0.1, 0.1, 1, 0, 5);
+    -moz-transform: matrix(1, 0.1, 0.1, 1, 0, 5);
     transform: matrix(1, 0.1, 0.1, 1, 0, 5);
+    -ms-box-shadow: -8px 8px 20px 5px rgba(192, 192, 192, 0.55);
     -webkit-box-shadow: -8px 8px 20px 5px rgba(192, 192, 192, 0.55);
     -moz-box-shadow: -8px 8px 20px 5px rgba(192, 192, 192, 0.55);
     box-shadow: -8px 8px 20px 5px rgba(192, 192, 192, 0.55);
@@ -152,7 +172,8 @@ body {
 
 .home-img-1 {
     border-radius: 3px;
-    -webkit-box-shadow: 3px 3px 12px 3px rgba(192, 192, 192, 0.55);
+    -ms-box-shadow: -8px 8px 20px 5px rgba(192, 192, 192, 0.55);
+    -webkit-box-shadow: -8px 8px 20px 5px rgba(192, 192, 192, 0.55);
     -moz-box-shadow: 3px 3px 12px 3px rgba(192, 192, 192, 0.55);
     box-shadow: 3px 3px 12px 3px rgba(192, 192, 192, 0.55);
 }
@@ -160,6 +181,7 @@ body {
 .home-img-2 {
     width: 90%;
     border-radius: 6px;
+    -ms-box-shadow: 5px 5px 18px 4px rgba(192, 192, 192, 0.55);
     -webkit-box-shadow: 5px 5px 18px 4px rgba(192, 192, 192, 0.55);
     -moz-box-shadow: 5px 5px 18px 4px rgba(192, 192, 192, 0.55);
     box-shadow: 5px 5px 18px 4px rgba(192, 192, 192, 0.55);
@@ -168,6 +190,7 @@ body {
 .home-img-3 {
     width: 80%;
     border-radius: 9px;
+    -ms-box-shadow: 8px 8px 25px 5px rgba(192, 192, 192, 0.55);
     -webkit-box-shadow: 8px 8px 25px 5px rgba(192, 192, 192, 0.55);
     -moz-box-shadow: 8px 8px 25px 5px rgba(192, 192, 192, 0.55);
     box-shadow: 8px 8px 25px 5px rgba(192, 192, 192, 0.55);
@@ -176,6 +199,7 @@ body {
 .home-img-4 {
     width: 90%;
     border-radius: 6px;
+    -ms-box-shadow: 5px 5px 18px 4px rgba(192, 192, 192, 0.55);
     -webkit-box-shadow: 5px 5px 18px 4px rgba(192, 192, 192, 0.55);
     -moz-box-shadow: 5px 5px 18px 4px rgba(192, 192, 192, 0.55);
     box-shadow: 5px 5px 18px 4px rgba(192, 192, 192, 0.55);
@@ -183,27 +207,34 @@ body {
 
 .home-img-5 {
     border-radius: 3px;
+    -ms-box-shadow: 3px 3px 12px 3px rgba(192, 192, 192, 0.55);
     -webkit-box-shadow: 3px 3px 12px 3px rgba(192, 192, 192, 0.55);
     -moz-box-shadow: 3px 3px 12px 3px rgba(192, 192, 192, 0.55);
     box-shadow: 3px 3px 12px 3px rgba(192, 192, 192, 0.55);
 }
 
 .home-article .home-img-text1 {
+    font-family: 'PT Sans', sans-serif;
     -ms-transform: matrix(1.2, 0.3, 0, 2.5, 25, -100);
     -webkit-transform: matrix(1.2, 0.3, 0, 2.5, 25, -100);
+    -mox-transform: matrix(1.2, 0.3, 0, 2.5, 25, -100);
     transform: matrix(1.2, 0.3, 0, 2.5, 25, -100);
     /*matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())*/
 }
 
 .home-article .home-img-text2 {
+    font-family: 'PT Sans', sans-serif;
     -ms-transform: matrix(1.2, 0, 0, 3, 0, -50);
     -webkit-transform: matrix(1.2, 0, 0, 3, 0, -50);
+    -moz-transform: matrix(1.2, 0, 0, 3, 0, -50);
     transform: matrix(1.2, 0, 0, 3, 0, -50);
 }
 
 .home-article .home-img-text3 {
+    font-family: 'PT Sans', sans-serif;
     -ms-transform: matrix(1.2, -0.3, 0, 2.5, -25, -100);
     -webkit-transform: matrix(1.2, -0.3, 0, 2.5, -25, -100);
+    -moz-transform: matrix(1.2, -0.3, 0, 2.5, -25, -100);
     transform: matrix(1.2, -0.3, 0, 2.5, -25, -100);
 }
 
@@ -211,8 +242,6 @@ body {
 /*-----------------------------------Main Page - Bio*/
 
 .home-bio {
-    padding: 0;
-    margin: 0;
     background: url("../images/joeparispt_mainpage.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -221,8 +250,8 @@ body {
 }
 
 .home-bio h2 {
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 500;
     font-family: 'PT Sans', sans-serif;
     padding-top: 30px;
 }
@@ -236,20 +265,17 @@ body {
 }
 
 .home-bio h3 {
-    font-size: 26px;
-    font-weight: 400;
-    font-family: 'PT Sans', sans-serif;
     padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .home-bio p {
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 10px;
+    font-weight: 200;
     font-family: 'Roboto', sans-serif;
-}
-
-.container-flex {
-    height: 100vh;
 }
 
 /*-----------------------------------Main Page - Before/After*/
@@ -281,20 +307,101 @@ body {
     text-align: justify;
 }
 
-/*-----------------------------------Training & Diet Plans*/
+/*-----------------------------------Training & Diet Plans Page - Content*/
 
-.trainingplan-header {
+.trainingplan-section {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.trainingplan-header h2 {
+.trainingplan-section h1 {
+    padding-bottom: 15px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: 'PT Sans', sans-serif;
 }
 
-/*-----------------------------------Contact*/
+.trainingplan-section h2 {
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.trainingplan-section p {
+    padding-top: 10px;
+    font-size: 10px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+}
+
+.trainingplan-section ul li {
+    font-size: 10px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.trainingplan-options {}
+
+.trainingplan-options a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.trainingplan-options img {
+
+    border: solid;
+    border-width: 3px;
+    border-color: #fafafa;
+}
+
+.trainingplan-options ul i {
+    padding-right: 5px;
+    padding-left: 15px;
+    color: #bce1ff;
+}
+
+/*-----------------------------------Blog - Content*/
+
+.blog-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blog-section h1 {
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.blog-section h2 {
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.blog-section p {
+    padding-top: 10px;
+    font-size: 10px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blog-section a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.blog-section img {
+    border: solid;
+    border-width: 3px;
+    border-color: #fafafa;
+}
+
+/*-----------------------------------Contact Page - Content*/
 
 .contact-bg-img {
     padding: 0;
@@ -304,6 +411,27 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: contain;
+}
+
+.contact-form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*-----------------------------------Thanks - Content*/
+
+.thanks-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.thanks-section p,
+.thanks-section a {
+    color: #fafafa;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*-----------------------------------Footer*/
@@ -327,7 +455,7 @@ body {
     color: #bce1ff;
 }
 
-.footer-breaker button {
+.footer-breaker a button {
     margin-top: 20px;
     margin-bottom: 30px;
     margin-left: 10px;
@@ -343,7 +471,7 @@ body {
     -o-transition: all 0.2s ease-in-out;
 }
 
-.footer-breaker button:hover {
+.footer-breaker a button:hover {
     background: #bce1ff;
     color: #00213b;
 }
@@ -365,8 +493,9 @@ body {
 }
 
 .footer-main a i {
-    width: 35px;
-    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 30px;
     color: #fafafa;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -386,15 +515,62 @@ body {
     padding-top: 50px;
 }
 
+/*-----------------------------------Effects*/
+
+.pulse {
+    display: inline-block;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.pulse:hover {
+    -webkit-animation: pulse;
+    animation-name: pulse;
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulse {
+    25% {
+        -webkit-transform: scale(1.01);
+        transform: scale(1.01);
+    }
+    75% {
+        -webkit-transform: scale(0.99);
+        transform: scale(0.99);
+    }
+}
+
+@keyframes pulse {
+    25% {
+        -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        transform: scale(1.01);
+    }
+    75% {
+        -webkit-transform: scale(0.99);
+        -ms-transform: scale(0.99);
+        transform: scale(0.99);
+    }
+}
+
 /*-----------------------------------Responsive design*/
 
 @media (max-width: 576px) {
     .home-bio {
+        -ms-box-shadow: inset 0px 30px 35px -1px rgba(48, 48, 48, 1);
         -webkit-box-shadow: inset 0px 30px 35px -1px rgba(48, 48, 48, 1);
         -moz-box-shadow: inset 0px 30px 35px -1px rgba(48, 48, 48, 1);
         box-shadow: inset 0px 30px 35px -1px rgba(48, 48, 48, 1);
     }
     .home-beforeafter {
+        -ms-box-shadow: 0px -22px 54px 35px rgba(48, 48, 48, 1);
         -webkit-box-shadow: 0px -22px 54px 35px rgba(48, 48, 48, 1);
         -moz-box-shadow: 0px -22px 54px 35px rgba(48, 48, 48, 1);
         box-shadow: 0px -22px 54px 35px rgba(48, 48, 48, 1);
@@ -408,6 +584,10 @@ body {
     .nav-menu-bar a {
         font-size: 22px;
     }
+    .nav-menu-bar ul a {
+        font-size: 20px;
+        font-weight: 300;
+    }
     .home-menu-image {
         height: 80px;
     }
@@ -417,13 +597,26 @@ body {
     .promo-bar {
         font-size: 8px;
     }
-    .home-article h1 {
+    .home-article h1,
+    .home-bio h2,
+    .trainingplan-section h1,
+    .blog-section h1 {
         font-size: 26px;
     }
-    .home-article h2 {
+    .home-article h2,
+    .home-bio h3,
+    .trainingplan-section h2,
+    .blog-section h2 {
         font-size: 22px;
     }
-    .home-article p {
+
+    .home-bio p,
+    .home-article p,
+    .trainingplan-section ul li,
+    .trainingplan-section p,
+    .blog-section p,
+    .thanks-section p,
+    .thanks-section a {
         font-size: 14px;
         font-weight: 300;
     }
@@ -433,21 +626,37 @@ body {
     .nav-menu-bar a {
         font-size: 22px;
     }
+    .nav-menu-bar ul a {
+        font-size: 20px;
+    }
     .home-menu-image {
         height: 120px;
     }
     .home-article {
         background: linear-gradient(#303030, #000000);
     }
-    .home-article h1 {
+    .home-article h1,
+    .home-bio h2,
+    .trainingplan-section h1,
+    .blog-section h1 {
         font-size: 32px;
         font-weight: 700;
     }
-    .home-article h2 {
+    .home-article h2,
+    .home-bio h3,
+    .trainingplan-section h2,
+    .blog-section h2 {
         font-size: 26px;
         font-weight: 500;
     }
-    .home-article p {
+
+    .home-bio p,
+    .home-article p,
+    .trainingplan-section ul li,
+    .trainingplan-section p,
+    .blog-section p,
+    .thanks-section p,
+    .thanks-section a {
         font-size: 16px;
         font-weight: 400;
     }
@@ -457,6 +666,16 @@ body {
 }
 
 @media (min-width: 992px) {
+    .nav-menu-bar ul {
+        padding-bottom: 0;
+    }
+    .nav-menu-bar ul a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 18px;
+        font-style: normal;
+        letter-spacing: 0.5px;
+    }
     .nav-menu-bar a {
         font-size: 22px;
     }
@@ -469,15 +688,28 @@ body {
     .promo-bar {
         font-size: 16px;
     }
-    .home-article h1 {
+    .home-article h1,
+    .home-bio h2,
+    .trainingplan-section h1,
+    .blog-section h1 {
         font-size: 38px;
         font-weight: 800;
     }
-    .home-article h2 {
+    .home-article h2,
+    .home-bio h3,
+    .trainingplan-section h2,
+    .blog-section h2 {
         font-size: 30px;
         font-weight: 700;
     }
-    .home-article p {
+
+    .home-bio p,
+    .home-article p,
+    .trainingplan-section ul li,
+    .trainingplan-section p,
+    .blog-section p,
+    .thanks-section p,
+    .thanks-section a {
         font-size: 20px;
         font-weight: 500;
     }

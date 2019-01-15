@@ -11,51 +11,44 @@
 </head>
 
 <body>
-    <nav class="sticky-top nav-menu-main">
-        <nav class="navbar navbar-expand-lg navbar-dark nav-menu-bar">
+    <!--Nav Bar-->
+    <nav class="fixed-top nav-menu-main">
+        <nav class="navbar navbar-expand-lg navbar-dark nav-menu-bar bg-standard">
             <a class="navbar-brand" href="index.html">Joe Paris | Personal Trainer</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="nav-btn-pos">
+                <button class="navbar-toggler nav-btn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+                </button>
+            </div>
             <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="traininganddietplans.html">Training & Diet Plans</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
+                        <a class="nav-link" href="trainingplanoptions.html">Training Plan Options</a>
                     </li>
                     <li class="nav-item active">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><span>Login/Sign Up</span><i class="fa fa-user" aria-hidden="true"></i></a>
+                        <a class="nav-link" href="comingsoon.html"><span>Login/Sign Up</span><i class="fa fa-user" aria-hidden="true"></i></a>
                     </li>
                 </ul>
             </div>
         </nav>
     </nav>
-    <header class="container-fluid home-menu-image">
-        <div class="row">
-            <a href="index.html">
-                <div class="col-12"></div>
-            </a>
-        </div>
-    </header>
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="text-center">Contact Joe</h2>
-            </div>
-        </div>
-    </section>
+    <!--Heading Image-->
+    <header class="container-fluid home-menu-image"></header>
+    <!--Contact Form-->
     <form class="container-fluid contact-bg-img">
         <div class="row">
-            <div class="col-xs-12 offset-lg-1 col-lg-6">
-                <div class="form-row jumbotron">
+            <div class="offset-1 col-10 offset-md-2 col-md-8">
+                <div class="form-row jumbotron bg-standard-3tone contact-form">
+                    <h2 class="text-center">Contact Joe</h2>
                     <div class="form-group col-12">
                         <label for="inputName4">Name*</label>
                         <input type="name" class="form-control" id="inputName4" placeholder="Name" required>
@@ -65,12 +58,10 @@
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="checkmale" value="checkmale">
                         <label class="form-check-label" for="checkmale">Male</label>
                     </div>
-
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="checkfemale" value="checkfemale">
                         <label class="form-check-label" for="checkfemale">Female</label>
                     </div>
-
                     <div class="form-group col-12">
                         <label for="inputLocation">Location*</label>
                         <input type="location" class="form-control" id="inputLocation" placeholder="Location" required>
@@ -91,11 +82,12 @@
                         <label for="inputMessage">Message</label>
                         <textarea class="form-control" id="validationTextarea" placeholder="Message" required></textarea>
                     </div>
+                    <a class="btn btn-primary" href="thanks.html" role="button">Send Message</a>
                 </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
             </div>
         </div>
     </form>
+    <!--Footer-->
     <footer class="container-fluid footer-main">
         <div class="row footer-breaker">
             <div class="col-12 col-sm-9">
@@ -104,21 +96,19 @@
                 </div>
             </div>
             <div class="col-12 col-sm-3 text-center">
-                <button type="button" class="btn btn-outline-light">Contact Joe Now</button>
+                <a href="contact.html"><button type="button" class="btn btn-outline-light" href="contact.html">Contact Joe Now</button></a>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-5 offset-md-1">
                 <h6 class="text-uppercase">Joe Paris | Personal Trainer</h6>
-                <p>I am a peronal trainer and have been in the industry for 6 years. I also have experience in boxing conditioning and body building competitions.</p>
-                <p class="inline-block">
-                    Download my CV here <a target="_blank" href="#"><i class="fa fa-download cv-icon" aria-hidden="true"></i></a>
-                </p>
+                <p>Experienced Personal Trainer, combining weight training, boxing and conditioning work into getting the results you want!</p>
+                <p class="inline-block">Check out my socials or contact me on the link above</p>
             </div>
             <div class="text-center col-12 col-md-4 offset-md-2 social-icons">
-                <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
-                <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
-                <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                <a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a target="_blank" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
             </div>
         </div>
     </footer>
