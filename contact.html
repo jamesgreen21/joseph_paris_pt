@@ -44,7 +44,7 @@
     <!--Heading Image-->
     <header class="container-fluid home-menu-image"></header>
     <!--Contact Form-->
-    <form class="container-fluid contact-bg-img">
+    <form action="thanks.html" class="container-fluid contact-bg-img">
         <div class="row">
             <div class="offset-1 col-10 offset-md-2 col-md-8">
                 <div class="form-row jumbotron bg-standard-3tone contact-form">
@@ -54,7 +54,7 @@
                         <input type="name" class="form-control" id="inputName4" placeholder="Name" required>
                     </div>
                     <p class="col-12">Gender:</p>
-                    <div class="form-check form-check-inline">
+                    <div class="form-check form-check-inline contact-gender">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="checkmale" value="checkmale">
                         <label class="form-check-label" for="checkmale">Male</label>
                     </div>
@@ -63,16 +63,12 @@
                         <label class="form-check-label" for="checkfemale">Female</label>
                     </div>
                     <div class="form-group col-12">
-                        <label for="inputLocation">Location*</label>
+                        <label class="contact-location" for="inputLocation">Location*</label>
                         <input type="location" class="form-control" id="inputLocation" placeholder="Location" required>
                     </div>
                     <div class="form-group col-12">
                         <label for="inputEmail">Email*</label>
-                        <input type="postcode" class="form-control" id="inputEmail" placeholder="Email" required>
-                    </div>
-                    <div class="form-group col-12">
-                        <label for="inputEmail2">Confirm Email*</label>
-                        <input type="email2" class="form-control" id="inputEmail2" placeholder="Re-enter email" required>
+                        <input name="email" type="email" class="form-control" id="email" placeholder="Email" onblur="confirmEmail()" required>
                     </div>
                     <div class="form-group col-12">
                         <label for="inputMobile">Mobile</label>
@@ -82,7 +78,9 @@
                         <label for="inputMessage">Message</label>
                         <textarea class="form-control" id="validationTextarea" placeholder="Message" required></textarea>
                     </div>
-                    <a class="btn btn-primary" href="thanks.html" role="button">Send Message</a>
+                    <div class="contact-btn">
+                        <button class="btn btn-primary" type="submit">Send Message</button>
+                    </div>
                 </div>
             </div>
         </div>
