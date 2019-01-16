@@ -97,6 +97,7 @@ body {
 /*-----------------------------------Main Page - Promo Bar*/
 
 .promo-bar {
+    margin: 0;
     padding-top: 5px;
     font-size: 12px;
     font-weight: 300;
@@ -119,6 +120,7 @@ body {
 }
 
 .home-article {
+    margin: 0;
     background: linear-gradient(#000000, #303030);
 }
 
@@ -215,27 +217,27 @@ body {
 
 .home-article .home-img-text1 {
     font-family: 'PT Sans', sans-serif;
-    -ms-transform: matrix(1.2, 0.3, 0, 2.5, 25, -100);
-    -webkit-transform: matrix(1.2, 0.3, 0, 2.5, 25, -100);
-    -mox-transform: matrix(1.2, 0.3, 0, 2.5, 25, -100);
-    transform: matrix(1.2, 0.3, 0, 2.5, 25, -100);
+    -ms-transform: matrix(1, 0, -1, 2.5, 25, -40);
+    -webkit-transform: matrix(1, 0, -1, 2.5, 25, -40);
+    -mox-transform: matrix(1, 0, -1, 2.5, 25, -40);
+    transform: matrix(1, 0, -1, 2.5, 25, -40);
     /*matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())*/
 }
 
 .home-article .home-img-text2 {
     font-family: 'PT Sans', sans-serif;
-    -ms-transform: matrix(1.2, 0, 0, 3, 0, -50);
-    -webkit-transform: matrix(1.2, 0, 0, 3, 0, -50);
-    -moz-transform: matrix(1.2, 0, 0, 3, 0, -50);
-    transform: matrix(1.2, 0, 0, 3, 0, -50);
+    -ms-transform: matrix(1, 0, -1, 2.5, 0, -20);
+    -webkit-transform: matrix(1, 0, -1, 2.5, 0, -20);
+    -moz-transform: matrix(1, 0, -1, 2.5, 0, -20);
+    transform: matrix(1, 0, -1, 2.5, 0, -20);
 }
 
 .home-article .home-img-text3 {
     font-family: 'PT Sans', sans-serif;
-    -ms-transform: matrix(1.2, -0.3, 0, 2.5, -25, -100);
-    -webkit-transform: matrix(1.2, -0.3, 0, 2.5, -25, -100);
-    -moz-transform: matrix(1.2, -0.3, 0, 2.5, -25, -100);
-    transform: matrix(1.2, -0.3, 0, 2.5, -25, -100);
+    -ms-transform: matrix(1, 0, -1, 2.5, -25, -40);
+    -webkit-transform: matrix(1, 0, -1, 2.5, -25, -40);
+    -mox-transform: matrix(1, 0, -1, 2.5, -25, -40);
+    transform: matrix(1, 0, -1, 2.5, -25, -40);
 }
 
 
@@ -674,7 +676,7 @@ body {
         padding-bottom: 15px;
         font-size: 18px;
         font-style: normal;
-        letter-spacing: 0.5px;
+        letter-spacing: 0;
     }
     .nav-menu-bar a {
         font-size: 22px;
